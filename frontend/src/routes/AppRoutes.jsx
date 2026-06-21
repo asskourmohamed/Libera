@@ -4,7 +4,7 @@ import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Explore from "../pages/Explore";
-//somethingEFFq
+//somethingEFFque
 function AppRoutes() {
   return (
     <Routes>
