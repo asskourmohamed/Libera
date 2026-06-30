@@ -36,10 +36,7 @@ async function testConnection() {
     console.log('\n✅ Test terminé avec succès !');
   } catch (error) {
     console.error('❌ Erreur:', error.message);
-    console.log('\n💡 Suggestions:');
-    console.log('  1. Vérifiez que Docker est en cours d\'exécution');
-    console.log('  2. Lancez : docker-compose up -d');
-    console.log('  3. Vérifiez : docker-compose ps');
+    console.log('\n💡 Vérifiez que votre fichier .env a la bonne URI');
   }
 }
 
