@@ -133,7 +133,7 @@ const refreshToken = async (req, res) => {
   }
 };
 
-// @desc    Déconnexion
+// @desc    Déconnexi
 // @route   POST /api/auth/logout
 const logout = async (req, res) => {
   res.status(200).json({ success: true, message: 'Déconnexion réussie' });
